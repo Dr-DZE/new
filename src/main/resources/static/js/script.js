@@ -102,8 +102,8 @@ saveBtn.onclick = async function () {
         }
         showTotal(summary, true)
     } catch (error) {
-        showTotal("PIZDA \n" + error.message, false)
-        showTotal(`<p>PIZDA</p><p>${error.message}</p>`, false)
+        showTotal("UPS \n" + error.message, false)
+        showTotal(`<p>UPS</p><p>${error.message}</p>`, false)
     }
 };
 
